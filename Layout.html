@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--
-نویسنده: Amin@Dev
+نویسنده: ساتراس وب
 محصولات نام: مترونیک
 محصولات Version: 8.2.0
 خرید: https://1.envato.market/EA4JP
@@ -21,10 +21,7 @@ Like: www.facebook.com/keenthemes
     <!--begin::Fonts(mandatory for all pages)-->
 
     <!--end::Fonts-->
-    <!--begin::Vendor Stylesheets(used for this page only)-->
-    <link href="assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
-    <link href="assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
-    <!--end::Vendor Stylesheets-->
+ 
     <!--begin::Global Stylesheets Bundle(mandatory for all pages)-->
     <link href="assets/plugins/global/plugins.bundle.rtl.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/style.bundle.rtl.css" rel="stylesheet" type="text/css" />
@@ -71,18 +68,18 @@ Like: www.facebook.com/keenthemes
                     <div class="d-flex align-items-center d-lg-none ms-n2 me-2" title="مشاهده">
                         <div class="btn btn-icon btn-color-white btn-active-color-success w-35px h-35px" id="kt_app_sidebar_mobile_toggle">
                             <i class="ki-duotone ki-abstract-14 fs-2">
-									<span class="path1"></span>
-									<span class="path2"></span>
-								</i>
+								<span class="path1"></span>
+								<span class="path2"></span>
+							</i>
                         </div>
                     </div>
                     <!--end::Header mobile toggle-->
                     <!--begin::Logo-->
                     <div class="d-flex align-items-center flex-grow-1 flex-lg-grow-0 me-5 me-lg-0">
-                        <a href="../../demo46/dist/index.html">
+                        <!-- <a href="../../demo46/dist/index.html">
                             <img alt="Logo" src="assets/media/logos/demo46.svg" class="d-none d-sm-block" />
                             <img alt="Logo" src="assets/media/logos/demo46-small.svg" class="d-block d-sm-none" />
-                        </a>
+                        </a> -->
                     </div>
                     <!--end::Logo-->
                     <!--begin::Header wrapper-->
@@ -100,7 +97,46 @@ Like: www.facebook.com/keenthemes
                         <!--end::Menu wrapper-->
                         <!--begin::Navbar-->
                         <div class="app-navbar flex-shrink-0">
+                            <!--begin::Menu wrapper-->
+                            <div class="app-header-menu app-header-mobile-drawer align-items-stretch" data-kt-drawer="true" data-kt-drawer-name="app-header-menu" data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true" data-kt-drawer-width="250px" data-kt-drawer-direction="start"
+                                data-kt-drawer-toggle="#kt_app_header_menu_toggle" data-kt-swapper="true" data-kt-swapper-mode="{default: 'append', lg: 'prepend'}" data-kt-swapper-parent="{default: '#kt_app_body', lg: '#kt_app_header_wrapper'}">
+                                <!--begin::Menu-->
+                                <div class="menu menu-rounded menu-active-bg menu-state-success menu-column menu-lg-row menu-title-gray-700 menu-icon-gray-500 menu-arrow-gray-500 menu-bullet-gray-500 my-5 my-lg-0 align-items-stretch fw-semibold px-2 px-lg-0" id="kt_app_header_menu"
+                                    data-kt-menu="true">
+                                    <div data-kt-menu-placement="bottom-end" class="menu-item here show menu-here-bg menu-lg-down-accordion me-0 me-lg-2">
+                                        <!--begin:Menu link-->
+                                        <a href="AdminDashboard.html" class="menu-link">
+                                            <span class="menu-title">خانه</span>
 
+                                        </a>
+                                        <!--end:Menu link-->
+
+                                    </div>
+                                    <div data-kt-menu-placement="bottom-end" class="menu-item here show menu-here-bg menu-lg-down-accordion me-0 me-lg-2">
+                                        <!--begin:Menu link-->
+
+                                        <!--end:Menu link-->
+                                        <a href="Addwork.html" class="menu-link">
+                                            <span class="menu-title"> ثبت کار</span>
+
+                                        </a>
+
+                                    </div>
+                                    <div data-kt-menu-placement="bottom-end" class="menu-item here show menu-here-bg menu-lg-down-accordion me-0 me-lg-2">
+                                        <!--begin:Menu link-->
+
+                                        <!--end:Menu link-->
+                                        <a href="setting.html" class="menu-link">
+                                            <span class="menu-title"> تنظیمات</span>
+
+                                        </a>
+
+                                    </div>
+                                </div>
+
+                                <!--end::Menu-->
+                            </div>
+                            <!--end::Menu wrapper-->
                             <!--begin::کاربر menu-->
                             <div class="app-navbar-item ms-5" id="kt_header_user_menu_toggle">
                                 <!--begin::Menu wrapper-->
@@ -120,7 +156,9 @@ Like: www.facebook.com/keenthemes
                                             <!--begin::کاربرname-->
                                             <div class="d-flex flex-column">
                                                 <div class="fw-bold d-flex align-items-center fs-5">جلالی
-                                                    <span class="badge badge-light-primary fw-bold fs-8 px-2 py-1 ms-2">کاربر ادمین</span></div>
+                                                    <span class="badge badge-light-primary fw-bold fs-8 px-2 py-1 ms-2">کاربر
+														ادمین</span>
+                                                </div>
                                                 <a href="#" class="fw-semibold text-muted text-hover-success fs-7">max@kt.com</a>
                                             </div>
                                             <!--end::کاربرname-->
@@ -132,7 +170,8 @@ Like: www.facebook.com/keenthemes
                                     <!--end::Menu separator-->
                                     <!--begin::Menu item-->
                                     <div class="menu-item px-5">
-                                        <a href="../../demo46/dist/account/overview.html" class="menu-link px-5">پروفایل من</a>
+                                        <a href="../../demo46/dist/account/overview.html" class="menu-link px-5">پروفایل
+											من</a>
                                     </div>
                                     <!--end::Menu item-->
 
@@ -145,11 +184,11 @@ Like: www.facebook.com/keenthemes
                             <div class="app-navbar-item d-lg-none ms-2 me-n2" title="مشاهده header menu">
                                 <div class="btn btn-icon btn-color-white btn-active-color-success w-30px h-30px w-md-35px h-md-35px" id="kt_app_header_menu_toggle">
                                     <i class="ki-duotone ki-text-align-left fs-2 fs-md-1 fw-bold">
-											<span class="path1"></span>
-											<span class="path2"></span>
-											<span class="path3"></span>
-											<span class="path4"></span>
-										</i>
+										<span class="path1"></span>
+										<span class="path2"></span>
+										<span class="path3"></span>
+										<span class="path4"></span>
+									</i>
                                 </div>
                             </div>
                             <!--end::Header menu toggle-->
@@ -170,52 +209,39 @@ Like: www.facebook.com/keenthemes
                     <div class="app-main flex-column flex-row-fluid" id="kt_app_main">
                         <!--begin::Content wrapper-->
                         <div class="d-flex flex-column flex-column-fluid">
-                            main content
+                        
                         </div>
-                        <!--end::Content wrapper-->
-                        <!--begin::Footer-->
-                        <div id="kt_app_footer" class="app-footer d-flex flex-column flex-md-row align-items-center flex-center flex-md-stack">
-                            <!--begin::کپیright-->
-                            <div class="text-dark order-2 order-md-1">
-                                <span class="text-gray-400 fw-semibold me-1">2023&copy;</span>
-                                <a href="https://keenthemes.com" target="_blank" class="text-gray-400 text-hover-success">Amin@Dev</a>
-                            </div>
-                            <!--end::کپیright-->
-                            <!--begin::Menu-->
-                            <ul class="menu menu-gray-400 menu-hover-success fw-semibold order-1">
-                                <li class="menu-item">
-                                    <a href="https://keenthemes.com" target="_blank" class="menu-link px-2">درباره ی ما</a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="https://rtl-theme.com" target="_blank" class="menu-link px-2">پشتیبانی</a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="https://www.rtl-theme.com/metronic-admin-html-template/" target="_blank" class="menu-link px-2">خرید</a>
-                                </li>
-                            </ul>
-                            <!--end::Menu-->
-                        </div>
-                        <!--end::Footer-->
+                        <!--end::Content-->
                     </div>
-                    <!--end:::اصلی-->
+                    <!--end::Content wrapper-->
+                    <!--begin::Footer-->
+                    <div id="kt_app_footer" class="app-footer d-flex flex-column flex-md-row align-items-center flex-center flex-md-stack">
+                 
+                    </div>
+                    <!--end::Footer-->
                 </div>
-                <!--end::Wrapper container-->
+                <!--end:::اصلی-->
             </div>
-            <!--end::Wrapper-->
+            <!--end::Wrapper container-->
         </div>
-        <!--end::Page-->
+        <!--end::Wrapper-->
+    </div>
+    <!--end::Page-->
     </div>
     <!--end::اپلیکیشن-->
-
+    <!--begin::کشوs-->
+  
+  
+    <!--end::کشوs-->
     <!--begin::Scrolltop-->
     <div id="kt_scrolltop" class="scrolltop" data-kt-scrolltop="true">
         <i class="ki-duotone ki-arrow-up">
-				<span class="path1"></span>
-				<span class="path2"></span>
-			</i>
+			<span class="path1"></span>
+			<span class="path2"></span>
+		</i>
     </div>
     <!--end::Scrolltop-->
-
+ 
     <!--begin::Javascript-->
     <script>
         var hostUrl = "assets/";
@@ -225,13 +251,6 @@ Like: www.facebook.com/keenthemes
     <script src="assets/js/scripts.bundle.js"></script>
     <!--end::Global Javascript Bundle-->
 
-    <!--begin::سفارشی Javascript(used for this page only)-->
-    <script src="assets/js/widgets.bundle.js"></script>
-    <script src="assets/js/custom/widgets.js"></script>
-    <script src="assets/js/custom/apps/chat/chat.js"></script>
-    <script src="assets/js/custom/utilities/modals/upgrade-plan.js"></script>
-    <script src="assets/js/custom/utilities/modals/users-search.js"></script>
-    <!--end::سفارشی Javascript-->
     <!--end::Javascript-->
 </body>
 <!--end::Body-->
